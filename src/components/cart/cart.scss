@@ -1,0 +1,27 @@
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart-desc {
+        font-weight: 600;
+        background-color: #fff;
+        padding: 10px 30px;
+    }
+}
+
+h2 {
+    padding: 10px 0px 30px;
+}
+
+.show {
+    opacity: 1;
+}

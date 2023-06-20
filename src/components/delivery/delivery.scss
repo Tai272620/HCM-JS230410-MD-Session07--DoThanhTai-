@@ -1,0 +1,27 @@
+.delivery-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .delivery-box {
+        display: flex;
+        background-color: hsl(0, 0%, 95%);
+        width: 300px;
+        padding: 10px;
+        padding-top: 25px;
+
+        .delivery-img {
+            margin-right: 10px;
+        }
+
+        .delivery-desc {
+            font-size: 12px;
+        }
+
+        h5 {
+            font-size: 15px;
+        }
+    }
+}
